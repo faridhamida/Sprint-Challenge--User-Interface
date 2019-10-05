@@ -276,7 +276,7 @@ footer nav a {
 
 .about-nav {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 nav {
@@ -285,13 +285,8 @@ nav {
     margin-top:2%;
 }
 
-.logo-nav{
-    padding-left:200px;
-}
-
 .first-about-img {
-    margin: 25px 0px;
-    margin-left:310px;
+    margin:15px 0px;
 }
 
 .about-p {
@@ -308,8 +303,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	/* height:700px; */
-	width:105%;
+	width:100%;
     flex-wrap: wrap;
     justify-content: center;
     
@@ -334,7 +328,7 @@ button{
     margin-top:3%;
     margin-right:5px;
     border:2px solid black;
-    padding:9px;
+    padding:7px;
     font-weight: bold;
 }
 
